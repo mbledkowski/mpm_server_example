@@ -1,0 +1,13 @@
+{
+  "name": "my-mpm-server",
+  "version": "0.1.0",
+  "type": "bukkit",
+  "server": {
+    "bukkit": "1.18.2"
+  },
+  "scripts": {
+    "start": "/bin/sh -c \"cd ./bin; java -Xms2G -Xmx8G -jar server.jar --nogui\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
